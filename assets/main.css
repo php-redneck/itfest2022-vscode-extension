@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #000;
+}
+
+.app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 1.5rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.element:last-child {
+    margin-right: 0rem;
+}
+
+.row-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.element-title {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.element-component-row {
+    display: flex;
+    align-items: center;
+}
+
+.copy {
+    margin-left: 0.5rem;
+    outline: none;
+    color: blue;
+    background: none;
+    border: none;
+}
